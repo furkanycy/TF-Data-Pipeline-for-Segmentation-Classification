@@ -7,6 +7,8 @@ from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLRO
 import segmentation_models as sm
 from segmentation_models.metrics import iou_score
 
+sm.set_framework('tf.keras')
+
 
 class DisplaySegmentationResults(Callback):
 

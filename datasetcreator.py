@@ -6,6 +6,8 @@ import albumentations as A
 from functools import partial
 import segmentation_models as sm
 
+sm.set_framework('tf.keras')
+
 
 class DatasetCreator:
     """
