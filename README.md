@@ -1,4 +1,4 @@
-# TensorFlow_Data_Pipeline_For_Segmentation_and_Classification_of_Images
+# TensorFlow Data_Pipeline For Segmentation and Classification of Images
 
 This repository contains a TensorFlow data pipeline for artifact and tumor detection in histopathology images. The pipeline is designed to work with the Segmentation Models library, which provides a high-level API for training deep learning models for image segmentation and classification tasks. I wrote this code to speed the emprical process for model training. 
 TODO: 
